@@ -20,6 +20,6 @@ https://raw.githubusercontent.com/luodaoyi/FnDepot/main/fnpack.json
 
 | 应用 | appname | 平台 | 版本 |
 | --- | --- | --- | --- |
-| TAD模块 | `tad-module` | x86 | 0.6.1 |
+| TAD6S4N模块 | `tad-module` | x86 | 0.6.5 |
 
 应用源码、更新说明和问题反馈：[luodaoyi/TAD6S4N10G-fnos](https://github.com/luodaoyi/TAD6S4N10G-fnos)

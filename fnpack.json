@@ -8,7 +8,7 @@
   },
   "apps": {
     "tad-module": {
-      "display_name": "TAD模块",
+      "display_name": "TAD6S4N模块",
       "desc": "面向 TAD6S4N10G 的温度、功耗、CPU/HDD/NVMe 三曲线风扇、硬盘面板与 GPIO 按键管理模块。",
       "platform": [
         "x86"
@@ -25,13 +25,13 @@
       "maintainer": "Asura",
       "maintainer_url": "https://github.com/luodaoyi",
       "releases": {
-        "0.6.1": {
-          "changelog": "应用包标识改为 tad-module；界面重写为 fnOS 浅色应用风格，新增 SATA/NVMe 槽位温度和活动状态，并拆分 CPU、HDD、NVMe 三温控曲线。",
+        "0.6.5": {
+          "changelog": "使用 TAD6S4N模块名称和 fnOS 蓝色界面；三条温控曲线改为单列全宽并扩大拖拽区域；全局、风扇、按钮控制各页独立保存；需要检查状态可悬浮查看具体原因。",
           "packages": {
             "x86": {
               "download_url": "./tad-module/tad-module.fpk",
-              "sha256": "1aa3c2028b84c1e1d74b6af310af43bd7dc3af88d0422a68d2860fa238467acc",
-              "size": 2810685
+              "sha256": "b8be073faf40d8a66be8f538e8859b10e7b8e8679cbebfd02e87797cc51aca31",
+              "size": 2816232
             }
           }
         }
