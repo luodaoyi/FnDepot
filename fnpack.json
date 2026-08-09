@@ -7,16 +7,16 @@
     "description": "Asura 维护的飞牛 fnOS 第三方应用源"
   },
   "apps": {
-    "powerguard": {
+    "tad-module": {
       "display_name": "TAD模块",
-      "desc": "面向 TAD6S4N10G 的温度、功耗、CPU/硬盘双曲线风扇、硬盘仓位与 GPIO 按键管理模块。",
+      "desc": "面向 TAD6S4N10G 的温度、功耗、CPU/HDD/NVMe 三曲线风扇、硬盘面板与 GPIO 按键管理模块。",
       "platform": [
         "x86"
       ],
       "categories": [
         "系统工具"
       ],
-      "icon_url": "./powerguard/ICON.PNG",
+      "icon_url": "./tad-module/ICON.PNG",
       "run_as": "root",
       "install_type": "root",
       "is_docker": false,
@@ -25,13 +25,13 @@
       "maintainer": "Asura",
       "maintainer_url": "https://github.com/luodaoyi",
       "releases": {
-        "0.5.0": {
-          "changelog": "新增 CPU 与硬盘双温控曲线并始终采用较高目标转速；插件显示名称改为 TAD模块。",
+        "0.6.1": {
+          "changelog": "应用包标识改为 tad-module；界面重写为 fnOS 浅色应用风格，新增 SATA/NVMe 槽位温度和活动状态，并拆分 CPU、HDD、NVMe 三温控曲线。",
           "packages": {
             "x86": {
-              "download_url": "./powerguard/powerguard.fpk",
-              "sha256": "44a8861080611825413d394e8349525ead462e735089007b5b920f9611a870fc",
-              "size": 2807381
+              "download_url": "./tad-module/tad-module.fpk",
+              "sha256": "1aa3c2028b84c1e1d74b6af310af43bd7dc3af88d0422a68d2860fa238467acc",
+              "size": 2810685
             }
           }
         }
