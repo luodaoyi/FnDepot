@@ -1,0 +1,41 @@
+{
+  "schema_version": "2",
+  "source_info": {
+    "name": "Asura FnDepot",
+    "author": "Asura",
+    "homepage": "https://github.com/luodaoyi/FnDepot",
+    "description": "Asura 维护的飞牛 fnOS 第三方应用源"
+  },
+  "apps": {
+    "powerguard": {
+      "display_name": "TAD模块",
+      "desc": "面向 TAD6S4N10G 的温度、功耗、CPU/硬盘双曲线风扇、硬盘仓位与 GPIO 按键管理模块。",
+      "platform": [
+        "x86"
+      ],
+      "categories": [
+        "系统工具"
+      ],
+      "icon_url": "./powerguard/ICON.PNG",
+      "run_as": "root",
+      "install_type": "root",
+      "is_docker": false,
+      "readme_url": "https://github.com/luodaoyi/TAD6S4N10G-fnos/blob/main/README.md",
+      "bug_report_url": "https://github.com/luodaoyi/TAD6S4N10G-fnos/issues",
+      "maintainer": "Asura",
+      "maintainer_url": "https://github.com/luodaoyi",
+      "releases": {
+        "0.5.0": {
+          "changelog": "新增 CPU 与硬盘双温控曲线并始终采用较高目标转速；插件显示名称改为 TAD模块。",
+          "packages": {
+            "x86": {
+              "download_url": "./powerguard/powerguard.fpk",
+              "sha256": "44a8861080611825413d394e8349525ead462e735089007b5b920f9611a870fc",
+              "size": 2807381
+            }
+          }
+        }
+      }
+    }
+  }
+}
