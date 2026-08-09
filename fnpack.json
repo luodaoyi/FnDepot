@@ -25,13 +25,13 @@
       "maintainer": "Asura",
       "maintainer_url": "https://github.com/luodaoyi",
       "releases": {
-        "0.6.5": {
-          "changelog": "使用 TAD6S4N模块名称和 fnOS 蓝色界面；三条温控曲线改为单列全宽并扩大拖拽区域；全局、风扇、按钮控制各页独立保存；需要检查状态可悬浮查看具体原因。",
+        "0.6.6": {
+          "changelog": "在 TAD6S4N模块标题后动态显示当前运行版本号；保留 fnOS 蓝色界面、大尺寸可拖拽曲线、分页面独立保存和状态检查悬浮详情。",
           "packages": {
             "x86": {
               "download_url": "./tad-module/tad-module.fpk",
-              "sha256": "b8be073faf40d8a66be8f538e8859b10e7b8e8679cbebfd02e87797cc51aca31",
-              "size": 2816232
+              "sha256": "dcf1ab447127914d79b7facdc4854f51d9d2ff974c13faa2fa49f551d1e9f817",
+              "size": 2816262
             }
           }
         }
