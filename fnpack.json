@@ -25,13 +25,13 @@
       "maintainer": "Asura",
       "maintainer_url": "https://github.com/luodaoyi",
       "releases": {
-        "0.6.6": {
-          "changelog": "在 TAD6S4N模块标题后动态显示当前运行版本号；保留 fnOS 蓝色界面、大尺寸可拖拽曲线、分页面独立保存和状态检查悬浮详情。",
+        "0.7.1": {
+          "changelog": "启动后自动检查 IT87、风扇通道、CPU 温度、硬盘枚举与硬盘温度来源并弹出针对性提示；HDD 1–6 与 NVMe 1–4 可分别选择是否参与风扇温控。",
           "packages": {
             "x86": {
               "download_url": "./tad-module/tad-module.fpk",
-              "sha256": "dcf1ab447127914d79b7facdc4854f51d9d2ff974c13faa2fa49f551d1e9f817",
-              "size": 2816262
+              "sha256": "b0e33e20493d5d6389935f177d9d451486df8aa008872c4d20a23ad44e2fead8",
+              "size": 2822462
             }
           }
         }
