@@ -25,13 +25,13 @@
       "maintainer": "Asura",
       "maintainer_url": "https://github.com/luodaoyi",
       "releases": {
-        "0.7.1": {
-          "changelog": "启动后自动检查 IT87、风扇通道、CPU 温度、硬盘枚举与硬盘温度来源并弹出针对性提示；HDD 1–6 与 NVMe 1–4 可分别选择是否参与风扇温控。",
+        "0.8.0": {
+          "changelog": "按键控制新增自定义 Bash 脚本管理、语法高亮和短按/长按绑定；标题新增手动 GitHub Release 更新检查；硬件异常提示改为每次打开界面都重新弹出。",
           "packages": {
             "x86": {
               "download_url": "./tad-module/tad-module.fpk",
-              "sha256": "b0e33e20493d5d6389935f177d9d451486df8aa008872c4d20a23ad44e2fead8",
-              "size": 2822462
+              "sha256": "aeb433641bae7ae08d12bb250cabb09d6c171f2291c641ba9a1caa04400a3023",
+              "size": 2940575
             }
           }
         }
