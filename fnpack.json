@@ -25,13 +25,13 @@
       "maintainer": "Asura",
       "maintainer_url": "https://github.com/luodaoyi",
       "releases": {
-        "0.8.0": {
-          "changelog": "按键控制新增自定义 Bash 脚本管理、语法高亮和短按/长按绑定；标题新增手动 GitHub Release 更新检查；硬件异常提示改为每次打开界面都重新弹出。",
+        "0.8.1": {
+          "changelog": "硬盘面板新增前置 SATA 6→1 与 M.2 4/2/3/1 图形盘位面板，动态显示温度、使用/插入/告警及繁忙/空闲/休眠状态，并保留详情表格。",
           "packages": {
             "x86": {
               "download_url": "./tad-module/tad-module.fpk",
-              "sha256": "aeb433641bae7ae08d12bb250cabb09d6c171f2291c641ba9a1caa04400a3023",
-              "size": 2940575
+              "sha256": "7661ca3ebf76fc6e72b62666f5baebe99574672efea13a5a724f06cb0334b639",
+              "size": 2942737
             }
           }
         }
